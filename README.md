@@ -13,8 +13,8 @@ Tasks are distinguished by the information provided (or accessible) to the rater
 
 The labelling methods are defined as follows:
 
-- **Out-of-Context (OOC) Annotation** Given an article/post $t$ related to the topic $s$, participants to a standard crowdsourcing experiment are asked to decide whether $t$ is real or fake, without any supporting additional information. 
-- **In-Context (IC) Annotation**: Participants to a crowdsourcing experiment are asked to label a post or article as fake or real news. In this task, annotators are also given a manually selected list of _known false news_. The list contains fake news that have been officially debunked to ascertain their falsity. Given an article/post $t$ related to a topic (event or public figure) $s$, and a list $F_s$ of known fake news about $s$, participants have to decide if $t$ is a fake news or not. 
+- **Out-of-Context (OOC) Annotation** Given an article/post _t_ related to the topic _s_, participants to a standard crowdsourcing experiment are asked to decide whether _t_ is real or fake, without any supporting additional information. 
+- **In-Context (IC) Annotation**: Participants to a crowdsourcing experiment are asked to label a post or article as fake or real news. In this task, annotators are also given a manually selected list of _known false news_. The list contains fake news that have been officially debunked to ascertain their falsity. Given an article/post _t_ related to a topic (event or public figure) _s_, and a list _F<sub>s</sub>_ of known fake news about _s_, participants have to decide if _t_ is a fake news or not. 
 - **Manually fact-checked (MFC) annotation**: Each piece of information has been manually fact-checked to assess its truthfulness. Both the _known fake news_ and additional sources on the web were considered, sometimes tracing back the news to its origin.
 
 ## The dataset
