@@ -22,9 +22,9 @@ The labelling methods are defined as follows:
 The NDF dataset includes all the annotation layers. Provided labels correspond to the various rating tasks, namely the manually-fact-checked (MFC), the in-context (IC) and out-of-context (OOC) ones.
 The repository includes three files:
 
-### NDFDataset.tsv (**LINK TO NDFDataset.tsv**)
+### Main file
 
-The file contains the three levels of annotation, one for each rating task. The final label for each item and task consists in the majority vote (for the OOC and IC task) or the fact-checked decision (for the MFC annotation).
+The file [NDFDataset.tsv](NDFDataset.tsv) contains the three levels of annotation, one for each rating task. The final label for each item and task consists in the majority vote (for the OOC and IC task) or the fact-checked decision (for the MFC annotation).
 	
 	
 	| id  | url | MFC  | IC   | OOC  | data-type |
@@ -32,16 +32,16 @@ The file contains the three levels of annotation, one for each rating task. The 
 	| 012 | url | Fake | Fake | Fake | article   |
 	| 013 | url | Fake | Fake | Real | tweet     |
 	
-	Table: Sample from the NDF dataset (**LINK TO NDFDataset.tsv**). 
+	Table: Sample from the NDF dataset. 
 
-<br/>
 
-## Non-aggregated data
+
+### Non-aggregated data
 
 Two additional files are provided, that summarize the non-aggregated rating details of each crowdsourcing task (OOC and IC). The text id links the files to the main dataset file (LINK). The names of the files are:
 
-- NDFDataset-OOCratings.tsv (**LINK TO NDFDataset-OOCratings.tsv**): Non-aggregated ratings of the OOC task.
-- NDFDataset-ICratings.tsv (**LINK TO NDFDataset-ICratings.tsv**): Non-aggregated ratings of the IC task.
+- [NDFDataset-OOCratings.tsv](NDFDataset-OOCratings.tsv): Non-aggregated ratings of the OOC task.
+- [NDFDataset-ICratings.tsv](NDFDataset-ICratings.tsv): Non-aggregated ratings of the IC task.
 	
 Note that the non-aggregated ratings are the absolute number of raters that actually voted for the corresponding class during the annotation process. The non-aggregated ratings are provided as part of the dataset for further analyses on the fake news and their specific linguistic and contextual characteristics.
 	
@@ -50,9 +50,9 @@ A sample of the files is reported below.
 	| id  | fake rates | real rates |
 	|-----|------------|------------|
 	| 012 | 14         | 6          |
-	| 013 | 7         | 13          |
+	| 013 | 7          | 13         |
 
-	Table: Non-aggregated OOC task ratings provided with the NDF dataset (**LINK TO NDFDataset-OOCratings.tsv**)
+	Table: Non-aggregated OOC task ratings provided with the NDF dataset
 
 </br>
 
@@ -61,7 +61,7 @@ A sample of the files is reported below.
 	| 012 | 18         | 2          |
 	| 013 | 14         | 6          |
 	
-	Table: Non-aggregated IC task ratings provided with the NDF dataset (**LINK TO NDFDataset-ICratings.tsv**)
+	Table: Non-aggregated IC task ratings provided with the NDF dataset
 
 ## Fair Use Policy
 
