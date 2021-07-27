@@ -2,7 +2,7 @@
 ## A new dataset of Fake News
 The Notre-Dame Fire (NDF) Dataset includes news articles and tweets produced during the Notre-Dame fire of April 2019. The event had a worldwide resonance and was subject to the creation and spread of several fake news.
 
-The dataset includes 568 texts (87 articles and 481 tweets) annotated as Fake or Real, according to the methodology proposed in [PAPER].
+The dataset includes 568 texts (87 articles and 481 tweets) annotated as Fake or Real, according to the methodology proposed in the paper "In-context annotation of Topic-Oriented Datasets of Fake News: A Case study on the Notre-Dame Fire Event".
 
 ### Annotation procedure
 
@@ -75,5 +75,6 @@ Please, cite the following paper if you intend to use the NDF dataset for your o
 	pages     = {XXXX - XXXX},
 	year      = {XXXX},
 	issn      = {XXXX-XXXX},
-	keywords  = {Fake News, Dataset collection and annotation, Machine Learning}
+	keywords  = {Fake News, Dataset collection and annotation, Machine Learning},
+	notes = {Under review}
 	}
