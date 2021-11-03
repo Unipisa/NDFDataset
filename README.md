@@ -70,7 +70,7 @@ Please, cite the following paper if you intend to use the NDF dataset for your o
 	@article{Passaro-etal-NDF,
 	author    = {Passaro, Lucia C. and Bondielli, Alessandro and Dell'Oglio, Pietro and Lenci, Alessandro and Marcelloni, Francesco},
 	title     = {In-context annotation of Topic-Oriented Datasets of Fake News: A Case study on the Notre-Dame Fire Event},
-	journal   = {Information Sciences},
+	journal   = {XXXX},
 	volume    = {X},
 	pages     = {XXXX - XXXX},
 	year      = {XXXX},
