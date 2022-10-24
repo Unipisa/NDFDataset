@@ -67,14 +67,16 @@ A sample of the files is reported below.
 
 Please, cite the following paper if you intend to use the NDF dataset for your own research:
 
-	@article{Passaro-etal-NDF,
-	author    = {Passaro, Lucia C. and Bondielli, Alessandro and Dell'Oglio, Pietro and Lenci, Alessandro and Marcelloni, Francesco},
-	title     = {In-context annotation of Topic-Oriented Datasets of Fake News: A Case study on the Notre-Dame Fire Event},
-	journal   = {XXXX},
-	volume    = {X},
-	pages     = {XXXX - XXXX},
-	year      = {XXXX},
-	issn      = {XXXX-XXXX},
-	keywords  = {Fake News, Dataset collection and annotation, Machine Learning},
-	notes = {Under review}
+	@article{PASSARO2022657,
+	title = {In-context annotation of topic-oriented datasets of fake news: A case study on the notre-dame fire event},
+	journal = {Information Sciences},
+	volume = {615},
+	pages = {657-677},
+	year = {2022},
+	issn = {0020-0255},
+	doi = {https://doi.org/10.1016/j.ins.2022.07.128},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020025522008167},
+	author = {Lucia C. Passaro and Alessandro Bondielli and Pietro Dell’Oglio and Alessandro Lenci and Francesco Marcelloni},
+	keywords = {Fake news, Dataset collection and annotation, Machine learning},
+	abstract = {The problem of fake news detection is becoming increasingly interesting for several research fields. Different approaches have been proposed, based on either the content of the news itself or the context and properties of its spread over time, specifically on social media. In the literature, it does not exist a widely accepted general-purpose dataset for fake news detection, due to the complexity of the task and the increasing ability to produce fake news appearing credible in particular moments. In this paper, we propose a methodology to collect and label news pertinent to specific topics and subjects. Our methodology focuses on collecting data from social media about real-world events which are known to trigger fake news. We propose a labelling method based on crowdsourcing that is fast, reliable, and able to approximate expert human annotation. The proposed method exploits both the content of the data (i.e., the texts) and contextual information about fake news for a particular real-world event. The methodology is applied to collect and annotate the Notre-Dame Fire Dataset and to annotate part of the PHEME dataset. Evaluation is performed with fake news classifiers based on Transformers and fine-tuning. Results show that context-based annotation outperforms traditional crowdsourcing out-of-context annotation.}
 	}
